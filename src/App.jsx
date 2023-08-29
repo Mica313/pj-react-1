@@ -10,8 +10,8 @@ function App() {
       <input type="text" onBlur={(e) => setNome(e.target.value)} />
       {nomeUsuario.length > 4 && (
         <>
-          <Perfil nomeUsuario="Mica313"/>
-          <Repos_list nomeUsuario="Mica313"/>
+          <Perfil nomeUsuario={nomeusuario}/>
+          <Repos_list nomeUsuario={nomeusuario}/>
         </>
       )
         
